@@ -86,22 +86,29 @@ $cards = [
 
                 <!-- <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-2 duration-300"> -->
                     <div class="group bg-white rounded-3xl p-8 border border-gray-200 shadow-sm
-hover:shadow-2xl hover:-translate-y-3 hover:border-green-400
-transition-all duration-500 relative overflow-hidden">
+                        hover:shadow-2xl hover:-translate-y-3 hover:border-green-400
+                        transition-all duration-500 relative overflow-hidden
+                        h-[330px] flex flex-col">
 
-                    <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-6">
+                    <!-- <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-6 "> -->
+                        <div class="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center mb-6
+                            group-hover:bg-green-600 transition-all duration-500">
 
-                        <span class="material-symbols-outlined text-4xl text-green-700">
+                        <!-- <span class="material-symbols-outlined text-4xl text-green-700"> -->
+                            <span class="material-symbols-outlined text-4xl text-green-700
+                                group-hover:text-white transition-all duration-500">
                             <?php echo $card['icon']; ?>
                         </span>
 
                     </div>
 
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                    <!-- <h3 class="text-2xl font-bold text-gray-900 mb-4"> -->
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4 min-h-[64px] group-hover:text-green-700 transition">
                         <?php echo $card['title']; ?>
                     </h3>
 
-                    <p class="text-gray-600 leading-7">
+                    <!-- <p class="text-gray-600 leading-7"> -->
+                        <p class="text-gray-600 leading-7 flex-1">
                         <?php echo $card['description']; ?>
                     </p>
 

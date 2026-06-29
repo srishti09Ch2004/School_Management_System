@@ -6,7 +6,7 @@ $image = "assets/images/hero-students.png";
 ?>
 
 
-    <section class="bg-gradient-to-r from-[#f5f9f8] via-[#f9fcfb] to-[#ffffff] min-h-[89vh] flex items-center">
+    <section class="bg-gradient-to-r from-[#f5f9f8] via-[#f9fcfb] to-[#ffff000] min-h-[89vh] flex items-center">
 
 
     <div class="max-w-[1600px] mx-auto px-6 lg:px-16 w-full">
