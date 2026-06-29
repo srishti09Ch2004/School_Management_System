@@ -5,7 +5,8 @@ $description = "Future Academy provides a dynamic and supportive space where qua
 $image = "assets/images/hero-students.png";
 ?>
 
-<section class="bg-gradient-to-r from-[#edf4f3] to-[#f2f7f6] min-h-[89vh] flex items-center">
+<!-- <section class="bg-gradient-to-r from-[#edf4f3] to-[#f2f7f6] min-h-[89vh] flex items-center"> -->
+    <section class="bg-gradient-to-r from-[#f5f9f8] via-[#f9fcfb] to-[#ffffff] min-h-[89vh] flex items-center">
 
     <div class="max-w-[1600px] mx-auto px-6 lg:px-16 w-full">
 
