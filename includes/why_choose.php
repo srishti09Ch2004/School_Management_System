@@ -84,7 +84,10 @@ $cards = [
 
             <?php foreach($cards as $card){ ?>
 
-                <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-2 duration-300">
+                <!-- <div class="bg-white rounded-3xl p-8 border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-2 duration-300"> -->
+                    <div class="group bg-white rounded-3xl p-8 border border-gray-200 shadow-sm
+hover:shadow-2xl hover:-translate-y-3 hover:border-green-400
+transition-all duration-500 relative overflow-hidden">
 
                     <div class="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-6">
 
